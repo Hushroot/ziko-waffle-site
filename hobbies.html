@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>My Hobbiez</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/ranade">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div>
+            <p id="clock"></p>
+        <h1>I loveeeee gamez</h1>
+        <p>i love gaming cause while im playing i feel like im in another world no thinking just gaming</p>
+        </div>
+        <section>
+            <h2>Favourite gamez</h2>
+            <ul>
+                <li>Fortnite</li>
+                <li>FC 26</li>
+                <li>Valorant</li>
+            </ul>
+            <img src="images/fortnite.jpg" alt="an image of fortnite game" width="500" height="471">
+            <button id="tgl-btn">Do like thanos did?!!</button>
+        </section>
+        <h1>I also like moviez</h1>
+        <section id="sectionVanish">
+            <h2>Favourite moviez</h2>
+            <ul>
+                <li>The usual suspects</li>
+                <li>Avengers Endgame</li>
+                <li>Minecraft the movie</li>
+            </ul>
+            <img src="images/avengers.jpg" alt="an image of avengers endgame movie" width="600" height="400">
+        </section>
+        <label>type in your favourite game</label>
+        <input id="favGame" placeholder="im waitingggg">
+        <p id="game"></p>
+        <a href="index.html">back to page 1</a>
+    </body>
+    <script>
+        const toggleButton = document.getElementById('tgl-btn');
+const contentBox = document.getElementById('sectionVanish');
+toggleButton.addEventListener('click', () => {
+  contentBox.classList.toggle('hidden');
+});
+    </script>
+</html>
